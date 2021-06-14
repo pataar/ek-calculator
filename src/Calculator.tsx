@@ -29,9 +29,9 @@ function Calculator() {
         </div>
         <div className="match-score">
 
-        <input type="number" value={teamHomeScore === -1 ? '' : teamHomeScore} min={0} onChange={e => setTeamHomeScore(s(e.target.value))} />
+        <input type="tel" value={teamHomeScore === -1 ? '' : teamHomeScore} min={0} onChange={e => setTeamHomeScore(s(e.target.value))} />
         -
-        <input type="number" value={teamOutScore === -1 ? '' : teamOutScore} min={0} onChange={e => setTeamOutScore(s(e.target.value))} />
+        <input type="tel" value={teamOutScore === -1 ? '' : teamOutScore} min={0} onChange={e => setTeamOutScore(s(e.target.value))} />
         </div>
         <hr />
         <div className="user-score">
@@ -39,9 +39,9 @@ function Calculator() {
           Score van speler:
         </div>
 
-        <input type="number" value={userHomeScore === -1 ? '' : userHomeScore} min={0} onChange={e => setUserHomeScore(s(e.target.value))} />
+        <input type="tel" value={userHomeScore === -1 ? '' : userHomeScore} min={0} onChange={e => setUserHomeScore(s(e.target.value))} />
         -
-        <input type="number" value={userOutScore === -1 ? '' : userOutScore} min={0} onChange={e => setUserOutScore(s(e.target.value))} />
+        <input type="tel" value={userOutScore === -1 ? '' : userOutScore} min={0} onChange={e => setUserOutScore(s(e.target.value))} />
 
         </div>
 
@@ -51,7 +51,9 @@ function Calculator() {
         <div>
           Punten voor speler:
         </div>
+        <div className="score">
           {calculate(matchScore, userScore)}
+        </div>
         </div>
 
     </div>

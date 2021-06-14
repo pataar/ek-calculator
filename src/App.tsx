@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <h1>
           Mol EK calculator
-        </p>
+        </h1>
       <Calculator />
       </header>
     </div>
