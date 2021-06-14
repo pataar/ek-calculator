@@ -29,7 +29,7 @@ jobs:
         run: |
           yarn
           yarn run build
-        with:
+        env:
           PUBLIC_URL: '/ek-calculator/'
 
       - name: Deploy 🚀
