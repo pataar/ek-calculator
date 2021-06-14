@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ek-calculator/static/css/main.5a565622.chunk.css",
-    "main.js": "/ek-calculator/static/js/main.0f980a4b.chunk.js",
-    "main.js.map": "/ek-calculator/static/js/main.0f980a4b.chunk.js.map",
+    "main.css": "/ek-calculator/static/css/main.a3155396.chunk.css",
+    "main.js": "/ek-calculator/static/js/main.9b5ae16a.chunk.js",
+    "main.js.map": "/ek-calculator/static/js/main.9b5ae16a.chunk.js.map",
     "runtime-main.js": "/ek-calculator/static/js/runtime-main.3ea7dab8.js",
     "runtime-main.js.map": "/ek-calculator/static/js/runtime-main.3ea7dab8.js.map",
     "static/js/2.d6f88c55.chunk.js": "/ek-calculator/static/js/2.d6f88c55.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.973cf434.chunk.js": "/ek-calculator/static/js/3.973cf434.chunk.js",
     "static/js/3.973cf434.chunk.js.map": "/ek-calculator/static/js/3.973cf434.chunk.js.map",
     "index.html": "/ek-calculator/index.html",
-    "static/css/main.5a565622.chunk.css.map": "/ek-calculator/static/css/main.5a565622.chunk.css.map",
+    "static/css/main.a3155396.chunk.css.map": "/ek-calculator/static/css/main.a3155396.chunk.css.map",
     "static/js/2.d6f88c55.chunk.js.LICENSE.txt": "/ek-calculator/static/js/2.d6f88c55.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3ea7dab8.js",
     "static/js/2.d6f88c55.chunk.js",
-    "static/css/main.5a565622.chunk.css",
-    "static/js/main.0f980a4b.chunk.js"
+    "static/css/main.a3155396.chunk.css",
+    "static/js/main.9b5ae16a.chunk.js"
   ]
 }
