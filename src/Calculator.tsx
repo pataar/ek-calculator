@@ -13,10 +13,13 @@ function Calculator() {
     home: teamHomeScore,
     out: teamOutScore
   };
+
   const userScore: MatchScore = {
     home: userHomeScore,
     out: userOutScore
   };
+
+  const s = (input: string): number => (input === '0' || Number(input) > 0) ? Number(input) : -1;
 
 
   return (
@@ -26,9 +29,9 @@ function Calculator() {
         </div>
         <div className="match-score">
 
-        <input type="number" value={teamHomeScore === -1 ? '' : teamHomeScore} min={0} onChange={e => setTeamHomeScore(Number(e.target.value))} />
+        <input type="number" value={teamHomeScore === -1 ? '' : teamHomeScore} min={0} onChange={e => setTeamHomeScore(s(e.target.value))} />
         -
-        <input type="number" value={teamOutScore === -1 ? '' : teamOutScore} min={0} onChange={e => setTeamOutScore(Number(e.target.value))} />
+        <input type="number" value={teamOutScore === -1 ? '' : teamOutScore} min={0} onChange={e => setTeamOutScore(s(e.target.value))} />
         </div>
         <hr />
         <div className="user-score">
@@ -36,9 +39,9 @@ function Calculator() {
           Score van speler:
         </div>
 
-        <input type="number" value={userHomeScore === -1 ? '' : userHomeScore} min={0} onChange={e => setUserHomeScore(Number(e.target.value))} />
+        <input type="number" value={userHomeScore === -1 ? '' : userHomeScore} min={0} onChange={e => setUserHomeScore(s(e.target.value))} />
         -
-        <input type="number" value={userOutScore === -1 ? '' : userOutScore} min={0} onChange={e => setUserOutScore(Number(e.target.value))} />
+        <input type="number" value={userOutScore === -1 ? '' : userOutScore} min={0} onChange={e => setUserOutScore(s(e.target.value))} />
 
         </div>
 
